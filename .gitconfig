@@ -1,5 +1,0 @@
-[user]
-	name = Polina Basgal
-	email = basgalpp@gmail.com
-[credential]
-	helper = "!f() { /home/vscode/.vscode-server/bin/16507d91be0dc1ce4f94c04d4d0430210b8685d9/node /tmp/vscode-remote-containers-869eba29-c36d-4ad8-b0e0-a39ea70b0b9a.js git-credential-helper $*; }; f"

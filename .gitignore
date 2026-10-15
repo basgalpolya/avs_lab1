@@ -1,0 +1,13 @@
+.vscode-server/
+.vscode/
+.oh-my-zsh/
+.cache/
+.copilot/
+.config/
+.local/
+.bash_logout
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
