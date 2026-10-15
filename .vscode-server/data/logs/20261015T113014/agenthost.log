@@ -1,0 +1,38 @@
+2026-10-15 11:30:16.817 [info] Agent Host process started successfully
+2026-10-15 11:30:16.868 [info] AgentService initialized
+2026-10-15 11:30:16.904 [info] Registering agent provider: copilotcli
+2026-10-15 11:30:16.914 [info] Registering agent provider: claude
+2026-10-15 11:30:17.019 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-e50ce1f7-23ce-4fa7-91ef-dccf6a68f199.sock
+2026-10-15 11:30:17.020 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-e50ce1f7-23ce-4fa7-91ef-dccf6a68f199.sock
+2026-10-15 11:30:17.034 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-15 11:30:17.079 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-15 11:30:17.145 [info] [Copilot] Listing chats to migrate...
+2026-10-15 11:30:17.149 [info] [Copilot] Starting CopilotClient...
+2026-10-15 11:30:17.150 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-15 11:30:17.171 [info] [Copilot] Using bundled runtime path: /vscode/vscode-server/bin/linux-x64/2a59476c9bfcb90b3ddc372c36762471b7dfad1c/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-15 11:30:17.193 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:30:17.277 [info] [Copilot] CopilotClient started successfully
+2026-10-15 11:30:17.281 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-10-15 11:30:17.281 [info] [Copilot] Found 0 legacy sessions
+2026-10-15 11:30:17.316 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 407ms (0 db opens, 0 db stats)
+2026-10-15 11:30:18.151 [info] [ProtocolServer] Initialize: clientId=9e0f4e3b-bb63-47eb-9d62-1350cce7ea62, protocolVersions=[0.10.0, 0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-15 11:30:18.715 [info] [AgentService] showExternalSessions changed 'recent' -> 'last7Days'; queueing session list reconciliation
+2026-10-15 11:30:18.723 [info] Registering agent provider: codex
+2026-10-15 11:30:18.765 [info] [Copilot] Startup config changed (hydraFusion=true), restarting CopilotClient
+2026-10-15 11:30:18.766 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=true)
+2026-10-15 11:30:18.825 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-15 11:30:18.828 [info] [CopilotDiscovery] Started: maxCandidateWatches=32, maxConcurrentStats=4, coalesceMs=500
+2026-10-15 11:30:18.843 [info] [CopilotDiscovery] Scan 1 started: initial=true, candidates=0, reasons={}, watched=0, pending=0, ignoredHostEvents=0
+2026-10-15 11:30:18.845 [info] [Copilot] Listing discoverable chats...
+2026-10-15 11:30:18.846 [info] [Copilot] Starting CopilotClient...
+2026-10-15 11:30:18.847 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-15 11:30:18.860 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-10-15 11:30:18.862 [info] [Copilot] Using bundled runtime path: /vscode/vscode-server/bin/linux-x64/2a59476c9bfcb90b3ddc372c36762471b7dfad1c/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-15 11:30:18.876 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:30:18.923 [info] [Copilot] CopilotClient started successfully
+2026-10-15 11:30:18.926 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-15 11:30:18.927 [info] [CopilotDiscovery] Scan 1 catalog: sdkSessions=0, candidates=0, listMs=82, classifyMs=1, published=0, external=0, legacy=0, known=0, disabledLegacy=0, archivedLegacy=0, missingCwd=0, unsupportedClient=0, stale=0, failed=0
+2026-10-15 11:30:18.928 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=85, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
+2026-10-15 11:30:19.746 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:30:19.751 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:33:55.584 [info] [ProtocolServer] Client disconnected: 9e0f4e3b-bb63-47eb-9d62-1350cce7ea62, subscriptions=1

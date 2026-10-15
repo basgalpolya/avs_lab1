@@ -1,0 +1,27 @@
+2026-10-15 11:37:05.405 [info] Agent Host process started successfully
+2026-10-15 11:37:05.449 [info] AgentService initialized
+2026-10-15 11:37:05.474 [info] Registering agent provider: copilotcli
+2026-10-15 11:37:05.481 [info] Registering agent provider: claude
+2026-10-15 11:37:05.486 [info] Registering agent provider: codex
+2026-10-15 11:37:05.568 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ipc-87c40ee7-a9c6-47e5-9fa2-3b6e6c4971ba.sock
+2026-10-15 11:37:05.569 [info] [AgentHost] WebSocket server listening on /tmp/vscode-ipc-87c40ee7-a9c6-47e5-9fa2-3b6e6c4971ba.sock
+2026-10-15 11:37:05.596 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-15 11:37:05.649 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-15 11:37:05.653 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:37:05.657 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 180ms (0 db opens, 0 db stats)
+2026-10-15 11:37:06.960 [info] [ProtocolServer] Initialize: clientId=ab3ad28e-b3a3-4f9e-9279-e712d4613bab, protocolVersions=[0.10.0, 0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-15 11:37:07.300 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-15 11:37:07.301 [info] [CopilotDiscovery] Started: maxCandidateWatches=32, maxConcurrentStats=4, coalesceMs=500
+2026-10-15 11:37:07.308 [info] [CopilotDiscovery] Scan 1 started: initial=true, candidates=0, reasons={}, watched=0, pending=0, ignoredHostEvents=0
+2026-10-15 11:37:07.310 [info] [Copilot] Listing discoverable chats...
+2026-10-15 11:37:07.314 [info] [Copilot] Starting CopilotClient...
+2026-10-15 11:37:07.315 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-15 11:37:07.339 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-10-15 11:37:07.343 [info] [Copilot] Using bundled runtime path: /vscode/vscode-server/bin/linux-x64/16507d91be0dc1ce4f94c04d4d0430210b8685d9/node_modules/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-10-15 11:37:07.488 [info] [Copilot] CopilotClient started successfully
+2026-10-15 11:37:07.492 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-15 11:37:07.494 [info] [CopilotDiscovery] Scan 1 catalog: sdkSessions=0, candidates=0, listMs=183, classifyMs=1, published=0, external=0, legacy=0, known=0, disabledLegacy=0, archivedLegacy=0, missingCwd=0, unsupportedClient=0, stale=0, failed=0
+2026-10-15 11:37:07.495 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=187, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
+2026-10-15 11:37:07.954 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 11:37:07.972 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-15 12:03:44.199 [info] [ProtocolServer] Client disconnected: ab3ad28e-b3a3-4f9e-9279-e712d4613bab, subscriptions=1

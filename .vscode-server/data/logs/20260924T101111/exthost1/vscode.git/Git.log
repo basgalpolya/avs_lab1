@@ -37,3 +37,32 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2026-09-24 10:20:30.571 [warning] [Git][getBranch] No such branch: master
 2026-09-24 10:20:30.592 [info] > git status -z -uall [14ms]
 2026-09-24 10:20:30.596 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-09-24 19:22:23.788 [info] [main] Log level: Info
+2026-09-24 19:22:23.788 [info] [main] Validating found git in: "git"
+2026-09-24 19:22:23.788 [info] [main] Using git "2.55.0" from "git"
+2026-09-24 19:22:23.788 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-24 19:22:23.792 [info] > git rev-parse --show-toplevel [20ms]
+2026-09-24 19:22:23.880 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [74ms]
+2026-09-24 19:22:23.975 [info] [Model][openRepository] Opened repository (path): /workspaces/debian
+2026-09-24 19:22:23.975 [info] [Model][openRepository] Opened repository (real path): /workspaces/debian
+2026-09-24 19:22:23.975 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-24 19:22:24.048 [info] > git config --get --local core.virtualfilesystem [46ms]
+2026-09-24 19:22:24.048 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-24 19:22:24.059 [info] > git config --get commit.template [42ms]
+2026-09-24 19:22:24.061 [info] > git rev-parse --show-toplevel [30ms]
+2026-09-24 19:22:24.079 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-24 19:22:24.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2026-09-24 19:22:24.096 [warning] [Git][getBranch] No such branch: master
+2026-09-24 19:22:24.130 [info] > git status -z -uall [20ms]
+2026-09-24 19:22:24.132 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-09-24 19:22:24.190 [info] > git rev-parse --show-toplevel [97ms]
+2026-09-24 19:22:24.198 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-24 19:22:24.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2026-09-24 19:22:24.224 [warning] [Git][getBranch] No such branch: master
+2026-09-24 19:22:24.225 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-09-24 19:22:24.229 [info] > git config --get commit.template [12ms]
+2026-09-24 19:22:24.243 [info] [Git][getRemotes] No remotes found in the git config file
+2026-09-24 19:22:24.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-09-24 19:22:24.255 [warning] [Git][getBranch] No such branch: master
+2026-09-24 19:22:24.284 [info] > git status -z -uall [17ms]
+2026-09-24 19:22:24.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
